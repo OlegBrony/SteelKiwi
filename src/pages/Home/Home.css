@@ -1,0 +1,15 @@
+.body {
+  width: 100vw;
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.home-photo {
+  display: flex;
+  justify-content: center;
+  height: calc(100px + 10vh);
+  margin: 0 auto;
+}
+.logout-button{
+
+}

@@ -1,50 +1,31 @@
-import React, { Component } from 'react';
-import Note                 from './components/Note';
-import NoteForm             from './components/NoteForm';
-
+import React, { Component }               from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+// import NotePage                           from './pages/Note';
+import HomePage                           from './pages/Home';
+import SearchPage                         from './pages/Search';
+import UserPage                           from './pages/UserPage';
+import Header                             from './components/Header';
+
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      notes: [
-        // { id: 1, noteContent: 'Note 1' },
-        // { id: 2, noteContent: 'Note 2' },
-      ],
-    };
+  componentDidMount() {
+    // window.localStorage.setItem('user', '')
   }
-
-  addNote = (note) => {
-    if (note === '') {
-      return
-    }
-    this.setState({
-      notes: [
-        ...this.state.notes,
-        { id: this.state.notes.length, noteContent: note, },
-      ],
-    });
-  };
-
 
   render() {
     return (
-      <div className={'notes-wrapper'}>
-        <div className={'notes-header'}>
-          <h1>React &#60;3 Firebase</h1>
-        </div>
-        <div className={'notes-body'}>
-          {
-            this.state.notes.map(item =>
-              <Note noteContent={item.noteContent} noteId={item.id} key={item.id}/>,
-            )
-          }
-        </div>
-        <div className={'notes-footer'}>
-          <NoteForm addNote={this.addNote}/>
-        </div>
-      </div>
+      <Router>
+        <>
+          <Header/>
+          <Route exact path={'/'} component={HomePage}/>
+          <Route exact path={'/search'} component={SearchPage}/>
+          <Route exact path={'/search/:request'} component={SearchPage}/>
+          <Route exact path={'/user/:name'} component={UserPage}/>
+
+          {/*<Route path={'/notes'} exact component={NotePage}/>*/}
+        </>
+      </Router>
     );
   }
 }

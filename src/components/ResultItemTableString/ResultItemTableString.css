@@ -1,0 +1,11 @@
+.result-item-table-row {}
+.result-item-table-cell-id {}
+.result-item-table-cell-login {}
+.result-item-table-cell-html-url {
+  cursor: pointer;
+}
+.result-item-table-cell-url {
+  cursor: pointer;
+}
+
+

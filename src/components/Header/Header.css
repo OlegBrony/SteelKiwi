@@ -1,0 +1,10 @@
+header {
+  display: grid;
+  grid-template-columns: 7fr 2fr;
+  height: calc(50px + 10vh);
+}
+
+.header-logo {
+  margin-left: 10vw;
+  height: 100%;
+}

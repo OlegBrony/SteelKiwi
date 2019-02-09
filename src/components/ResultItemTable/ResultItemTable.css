@@ -1,0 +1,32 @@
+.result-item-table {
+  font-family: Roboto, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.result-item-table td, .result-item-table th {
+  border: 1px solid #ddd;
+  padding: 1vw;
+}
+
+.result-item-table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.result-item-table tr:hover {
+  background: #ddd;
+}
+
+.result-item-table th {
+  padding-top: 1.2vw;
+  padding-bottom: 1.2vw;
+  text-align: left;
+  background-color: #2185d0;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.result-item-table-header-id {}
+.result-item-table-header-login {}
+.result-item-table-header-url {}
+.result-item-table-header-type {}

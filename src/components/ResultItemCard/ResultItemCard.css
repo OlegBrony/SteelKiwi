@@ -1,0 +1,26 @@
+.result-item-card {
+  overflow: hidden;
+  /*height: 15vh;*/
+  border: 1px #333 solid;
+  -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+}
+
+.result-item-card:hover {
+  overflow: auto;
+}
+
+.result-item-card-id {
+  margin: 1vh;
+}
+
+.result-item-card-login {
+  margin: 1vh;
+}
+
+.result-item-card-html-url {
+  margin: 1vh;
+}
+
+.result-item-card-url {
+  margin: 1vh;
+}

@@ -1,0 +1,30 @@
+.search-page {
+  margin-left: 15vw;
+}
+
+.search-form {
+  margin-bottom: 5vh;
+}
+
+.search-input {
+  margin-right: 1vw;
+}
+
+.search-mode {
+  margin-left: 1vw !important;
+}
+
+.error-message {
+  color: #AC2500;
+}
+
+.search-result-cards {
+  display: grid;
+  width: 90%;
+  grid-gap: 5vh;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.search-result-table {
+  width: 90%;
+}
