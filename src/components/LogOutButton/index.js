@@ -1,7 +1,8 @@
 import React      from 'react';
-import 'semantic-ui-css/semantic.min.css'
+import 'semantic-ui-css/semantic.min.css';
 import './LogOutButton.css';
 import { Button } from 'semantic-ui-react';
+
 
 const LogOutButton = (props) => (
   <div className={'log-out-block'}>
@@ -9,5 +10,6 @@ const LogOutButton = (props) => (
     <Button className={'log-out-button'} onClick={props.logOut}>Log out</Button>
   </div>
 );
+
 
 export default LogOutButton;

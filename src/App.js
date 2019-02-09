@@ -9,10 +9,6 @@ import Header                             from './components/Header';
 
 
 class App extends Component {
-  componentDidMount() {
-    // window.localStorage.setItem('user', '')
-  }
-
   render() {
     return (
       <Router>
@@ -29,5 +25,6 @@ class App extends Component {
     );
   }
 }
+
 
 export default App;

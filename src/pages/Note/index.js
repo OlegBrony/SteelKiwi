@@ -31,12 +31,6 @@ class NotePage extends Component {
   addNote = (note) => {
     if (note === '') return;
     this.database.push().set({ noteContent: note });
-    // this.setState({
-    //   notes: [
-    //     ...this.state.notes,
-    //     { id: this.state.notes.length, noteContent: note },
-    //   ],
-    // });
   };
 
   render() {
@@ -59,5 +53,6 @@ class NotePage extends Component {
     );
   }
 }
+
 
 export default NotePage;

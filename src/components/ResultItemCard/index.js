@@ -1,6 +1,6 @@
 import React from 'react';
 import './ResultItemCard.css';
-import {} from 'semantic-ui-react'
+
 
 const ResultItem = (props) => (
   <div className={'result-item-card'}>
@@ -10,5 +10,6 @@ const ResultItem = (props) => (
     <p className={'result-item-card-url'}>detail: <a href={`/user/${props.login}`}>{props.url}</a></p>
   </div>
 );
+
 
 export default ResultItem;

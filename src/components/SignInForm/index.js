@@ -5,19 +5,15 @@ import { faSignInAlt, faRegistered } from '@fortawesome/free-solid-svg-icons';
 import { faGithub }                  from '@fortawesome/free-brands-svg-icons';
 import { fire }                      from '../../firebaseConfig';
 
+
 class SignInForm extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       login: '',
       password: '',
     };
-
   }
-
-  handleSubmit = e => {
-  };
 
   handleChange = e => {
     this.setState({
@@ -40,13 +36,12 @@ class SignInForm extends Component {
     e.preventDefault();
     fire.auth().createUserWithEmailAndPassword(this.state.login, this.state.password)
       .catch(err => {
-        if (err) console.log(err);
+        console.log(err);
       });
   };
 
   authWithGithub = e => {
     e.preventDefault();
-    console.log(fire.firebase_.auth.GithubAuthProvider);
     // fire.auth().GithubAuthProvider();
     const githubProvider = new fire.firebase_.auth.GithubAuthProvider();
 
@@ -60,7 +55,7 @@ class SignInForm extends Component {
       .catch(err => {
         const { errorCode, errorMessage, email, credential } = err;
         if (errorCode === 'auth/account-exists-with-different-credential') {
-          alert('account-exists-with-different-credential');
+          console.log('account-exists-with-different-credential');
         } else console.log(err);
       });
   };

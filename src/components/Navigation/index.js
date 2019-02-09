@@ -1,9 +1,9 @@
-import React                                from 'react';
+import React                from 'react';
 import './Navigation.css';
-import { Link }                             from 'react-router-dom';
-import { HOME, SEARCH, NOTES }              from '../../constants/routes';
-import { FontAwesomeIcon }                  from '@fortawesome/react-fontawesome';
-import { faHome, faSearch, faNotesMedical } from '@fortawesome/free-solid-svg-icons';
+import { Link }             from 'react-router-dom';
+import { HOME, SEARCH }     from '../../constants/routes';
+import { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
+import { faHome, faSearch } from '@fortawesome/free-solid-svg-icons';
 
 
 const Navigation = () => (
@@ -14,10 +14,11 @@ const Navigation = () => (
     <Link to={SEARCH} className={'nav-link'}>
       <FontAwesomeIcon icon={faSearch}/>
     </Link>
-    <Link to={NOTES} className={'nav-link'}>
-      <FontAwesomeIcon icon={faNotesMedical}/>
-    </Link>
+    {/*<Link to={NOTES} className={'nav-link'}>*/}
+    {/*<FontAwesomeIcon icon={faNotesMedical}/>*/}
+    {/*</Link>*/}
   </nav>
 );
+
 
 export default Navigation;

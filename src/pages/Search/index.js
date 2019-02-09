@@ -66,14 +66,6 @@ class Search extends Component {
   };
 
   handleClearInput = () => {
-    // this.setState({
-    //   search: '',
-    //   result: null,
-    //   errors: {
-    //     searchError: false,
-    //   },
-    // });
-
     this.setState({
       shouldRedirectToIndex: true,
     });

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './NoteForm.css';
 
+
 class NoteForm extends Component {
   constructor(props) {
     super(props);
@@ -36,5 +37,6 @@ class NoteForm extends Component {
     );
   }
 }
+
 
 export default NoteForm;

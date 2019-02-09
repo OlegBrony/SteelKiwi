@@ -5,6 +5,7 @@ import axios                from 'axios';
 import { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
 import { faLocationArrow }  from '@fortawesome/free-solid-svg-icons';
 
+
 class UserPage extends Component {
   constructor(props) {
     super(props);
@@ -24,7 +25,6 @@ class UserPage extends Component {
   makeRequest = () => {
     axios.get(`https://api.github.com/users/${this.props.match.params.name}`)
       .then(res => {
-        console.log(res);
         if (res.message === 'Not Found') {
           this.setState({
             userError: true,
@@ -49,6 +49,7 @@ class UserPage extends Component {
       });
   };
 
+
   componentWillMount() {
     this.makeRequest();
   }
@@ -64,25 +65,6 @@ class UserPage extends Component {
       creationDate,
       githubLink,
     } = this.state;
-
-//    <>
-//      <h1>Users</h1>
-//      {
-//        this.props.isLoading ?
-//          <img src="https://cdn-images-1.medium.com/max/1600/1*9EBHIOzhE1XfMYoKz1JcsQ.gif" />
-//          : null
-//      }
-//      {
-//        this.props.hasErrored ?
-//          <p>Sorry! There was an error loading the items</p>
-//          : null
-//      }
-//      {this.props.items.results ?
-//        <UserCard
-//          user={this.props.items.results[0]}
-//        /> : null}
-//
-//    </>
 
     return (
       <div className={'user-detail'}>
@@ -117,11 +99,11 @@ class UserPage extends Component {
               </div>
             </>
             : null
-          //<div>Loading...</div>
         }
       </div>
     );
   }
 }
+
 
 export default UserPage;

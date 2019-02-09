@@ -4,6 +4,7 @@ import { Button, Input }    from 'semantic-ui-react';
 import { debounce }         from 'throttle-debounce';
 import { Redirect }         from 'react-router-dom';
 
+
 class SearchForm extends Component {
   constructor(props) {
     super(props);

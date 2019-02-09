@@ -58,9 +58,4 @@ class Home extends Component {
 }
 
 
-//            <button onClick={this.logout} className={'sign-button logout-button'}>
-//              Log out
-//            </button>
-//   <SignInForm/>
-
 export default Home;
