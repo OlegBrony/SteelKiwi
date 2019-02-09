@@ -1,5 +1,6 @@
-import React from 'react';
+import React    from 'react';
 import './ResultItemTableString.css';
+import { Link } from 'react-router-dom';
 
 
 const ResultItemTableString = (props) => (
@@ -10,9 +11,8 @@ const ResultItemTableString = (props) => (
         onClick={() => window.open(`${props.html_url}`)}>
       <a href={props.html_url}>{props.html_url}</a>
     </td>
-    <td className={'result-item-table-cell-url'}
-        onClick={() => window.open(`${props.url}`, '_self')}>
-      <a href={`/user/${props.login}`}>{props.url}</a>
+    <td className={'result-item-table-cell-url'}>
+      <Link to={`/user/${props.login}`} className={'my-link'}>{props.url}</Link>
     </td>
   </tr>
 );

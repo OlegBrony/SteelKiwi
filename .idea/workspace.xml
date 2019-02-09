@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a460b7e9-6b5e-4688-8cb5-f760cd4c8bb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardsMode/CardsMode.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardsMode/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LogOutButton/LogOutButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LogOutButton/LogOutButton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LogOutButton/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LogOutButton/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Note/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Note/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NoteForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NoteForm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ResultItemCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResultItemCard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ResultItemTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResultItemTable/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ResultItemTableString/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResultItemTableString/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchForm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignInForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignInForm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Note/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Note/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Search/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Search/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/UserPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserPage/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,7 +33,7 @@
           <entry key="css" value="68" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="4" />
-          <entry key="js" value="126" />
+          <entry key="js" value="127" />
           <entry key="json" value="4" />
           <entry key="png" value="4" />
           <entry key="ts" value="7" />
@@ -66,7 +45,7 @@
           <entry key="HTML" value="4" />
           <entry key="Image" value="4" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="126" />
+          <entry key="JavaScript" value="127" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="TypeScript" value="7" />
         </counts>
@@ -81,7 +60,7 @@
         <counts>
           <entry key="css" value="2441" />
           <entry key="gitignore" value="57" />
-          <entry key="js" value="17548" />
+          <entry key="js" value="17604" />
           <entry key="json" value="58" />
           <entry key="ts" value="1" />
         </counts>
@@ -90,7 +69,7 @@
         <counts>
           <entry key="CSS" value="2441" />
           <entry key="JSON" value="58" />
-          <entry key="JavaScript" value="17548" />
+          <entry key="JavaScript" value="17604" />
           <entry key="PLAIN_TEXT" value="57" />
           <entry key="TypeScript" value="1" />
         </counts>
@@ -112,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Home/Home.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -124,8 +103,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Home/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            <state relative-caret-position="240">
+              <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,6 +140,18 @@
               <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="31" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/ResultItemTableString/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -247,7 +241,6 @@
         <option value="$PROJECT_DIR$/src/components/Navigation/Navigation.css" />
         <option value="$PROJECT_DIR$/src/components/SearchForm/index.js" />
         <option value="$PROJECT_DIR$/src/components/SignInForm/index.js" />
-        <option value="$PROJECT_DIR$/src/components/ResultItemTableString/index.js" />
         <option value="$PROJECT_DIR$/src/components/ResultItemTable/index.js" />
         <option value="$PROJECT_DIR$/src/components/ResultItemCard/index.js" />
         <option value="$PROJECT_DIR$/src/components/NoteForm/index.js" />
@@ -263,6 +256,7 @@
         <option value="$PROJECT_DIR$/src/components/LogOutButton/index.js" />
         <option value="$PROJECT_DIR$/src/components/LogOutButton/LogOutButton.css" />
         <option value="$PROJECT_DIR$/src/pages/Home/Home.css" />
+        <option value="$PROJECT_DIR$/src/components/ResultItemTableString/index.js" />
       </list>
     </option>
   </component>
@@ -338,21 +332,7 @@
               <item name="fb-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="LogOutButton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="ResultItemTableString" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fb-test" type="b2602c69:ProjectViewProjectNode" />
@@ -476,12 +456,12 @@
       <workItem from="1549526718213" duration="892000" />
       <workItem from="1549548753416" duration="19409000" />
       <workItem from="1549623874553" duration="17837000" />
-      <workItem from="1549711552272" duration="10309000" />
+      <workItem from="1549711552272" duration="11107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122496000" />
+    <option name="totallyTimeSpent" value="123294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="706" y="0" width="1214" height="1051" extended-state="0" />
@@ -684,16 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ResultItemTableString/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header/Header.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -792,6 +762,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+            <element signature="e#209#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LogOutButton/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -819,21 +800,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-            <element signature="e#209#271#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Home/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        <state relative-caret-position="240">
+          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -841,6 +814,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ResultItemTableString/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
